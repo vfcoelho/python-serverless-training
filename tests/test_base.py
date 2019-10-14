@@ -1,5 +1,12 @@
-
+import os
 class TestBase(object):
+
+    def setup(self):
+
+        os.environ['dbname'] = "wishlist"
+        os.environ['user'] = 'postgres'
+        os.environ['password'] = 'postgres'
+        os.environ['host'] = "localhost"
 
     def test_base(self):
 

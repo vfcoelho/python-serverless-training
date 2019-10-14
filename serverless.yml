@@ -27,6 +27,12 @@ provider:
   name: aws
   runtime: python3.6
   versionFunctions: false
+  environment:
+    dbname: ${opt:dbname}
+    user: ${opt:user}
+    password: ${opt:password}
+    host: ${opt:host}
+    port: 5432
 
 # you can overwrite defaults here
 #  stage: dev
