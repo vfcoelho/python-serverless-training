@@ -6,9 +6,10 @@ verify_ssl = true
 [dev-packages]
 pylint = "*"
 pytest = "*"
+psycopg2-binary = "*"
 
 [packages]
-psycopg2-binary = "*"
+psycopg2 = "==2.7.7"
 
 [requires]
 python_version = "3.7"
