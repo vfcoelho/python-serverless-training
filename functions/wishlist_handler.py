@@ -17,7 +17,7 @@ def claim_gift(event,context):
     item_id = body['id']
     # log.info(item_id)
 
-# 03 - Write test basic test for local execution
+# 03 - Write basic test for local execution
 
 # 04 - Connecting to database:
     from utils.db_credentials import DBCredentials #place it on top
@@ -30,9 +30,31 @@ def claim_gift(event,context):
 
 # 05 - Provision a cloud database:
 
-# 06 - Change DBCredentials.credentials so get from environment variables
+# 06 - Provision CI/CD
 
-#07 - Provision CI/CD if psycopg has problems
+# 07 - Change DBCredentials.credentials so it gets from environment variables
+
+# 08 - Make list items method (as exercise)
+
+# 09 - Plan further features
+
+# 10 - Start on database modelling
+    # - Data types
+    # - Relationships 1:1 1:n n:n
+    # - Normal formulas
+
+# 11 - Start improving table modelling
+
+# 12 - Introduce ORM SqlAlchemy
+
+# 13 - Implement new features
+
+# 14 - Introduce Database Code First and Migrations - Alembic
+
+# 15 - Improve deployment codes to execute migrations
+
+# 16 - Introduce automated tests and a test framework
+
 
 # Common closing code -----------------------
 
