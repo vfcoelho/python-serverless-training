@@ -5,8 +5,9 @@ logging.basicConfig()
 log = logging.getLogger()
 log.setLevel(logging.INFO)
 
+from utils.db_credentials import DBCredentials #place it on top
 def claim_gift(event,context):
-
+    
 # 01 - Finding out how things communicate:
 
     # log.info(json.dumps(event))
@@ -20,7 +21,6 @@ def claim_gift(event,context):
 # 03 - Write basic test for local execution
 
 # 04 - Connecting to database:
-    from utils.db_credentials import DBCredentials #place it on top
     import psycopg2
     
     conn = psycopg2.connect(**DBCredentials.credentials)
@@ -45,15 +45,17 @@ def claim_gift(event,context):
 
 # 11 - Start improving table modelling
 
-# 12 - Introduce ORM SqlAlchemy
+# 12 - Implement new features
 
-# 13 - Implement new features
+# 13 - Introduce ORM SqlAlchemy
 
-# 14 - Introduce Database Code First and Migrations - Alembic
+# 14 - Refactor code
 
-# 15 - Improve deployment codes to execute migrations
+# 15 - Introduce Database Code First and Migrations - Alembic
 
-# 16 - Introduce automated tests and a test framework
+# 16 - Improve deployment codes to execute migrations
+
+# 17 - Introduce automated tests and a test framework
 
 
 # Common closing code -----------------------

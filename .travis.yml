@@ -17,4 +17,5 @@ deploy:
   script: serverless deploy --dbname $dbname --user $user --password $password --host $host
   on:
     all_branches: true
+    
 
