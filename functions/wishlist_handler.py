@@ -59,6 +59,8 @@ def claim_gift(event,context):
 
 # 19 - Improve automated tests and a test framework
 
+# 20 - Add data integrity features - check permissions and ownership of data before performing actions
+
 
 # Common closing code -----------------------
 
