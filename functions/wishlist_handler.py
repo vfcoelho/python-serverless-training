@@ -45,15 +45,16 @@ def claim_gift(event,context):
 
 # 11 - Start improving table modelling
 
-# 12 - Introduce ORM SqlAlchemy
+# 12 - Implement new features
 
-# 13 - Implement new features
+# 13 - Introduce automated tests
 
-# 14 - Introduce automated tests
+# 14 - Introduce ORM SqlAlchemy
 
 # 15 - Refactor for DRY - add database decorators | error handling/http response decorators
 
 # 16 - Introduce Database Code First and Migrations - Alembic
+#       - refactor tests to use alembic for database creation
 
 # 18 - Improve deployment codes to execute migrations
 
